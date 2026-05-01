@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Robotics Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#news">News</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button onclick="toggleTheme()">Toggle Mode</button>
+  </header>
+
+  <section id="hero">
+    <h2>Advancing adaptive robotics and intelligent systems</h2>
+    <p>Robotics, mechanical design, and intelligent systems.</p>
+    <p class="status">
+      Currently seeking robotics & mechanical design internships, research collaborations, speaking opportunities and more.
+    </p>
+  </section>
+
+  <section id="news">
+    <h2>Latest News</h2>
+
+    <div class="news-item">
+      <span>2026.04</span>
+      <p>🚀 Portfolio Website Launched</p>
+    </div>
+
+    <div class="news-item">
+      <span>2025.11</span>
+      <p>📄 Paper Accepted</p>
+    </div>
+
+    <div class="news-item">
+      <span>2024.08</span>
+      <p>🎓 Started research journey</p>
+    </div>
+
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Sea Turtle Robot</h3>
+      <p>Bioinspired amphibious robot.</p>
+    </div>
+
+    <div class="card">
+      <h3>Quadruped Tail System</h3>
+      <p>Improving stability with tail mechanics.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="buttons">
+      <a href="mailto:your@email.com">Email Me</a>
+      <a href="#">Resume</a>
+      <a href="#">Academic CV</a>
+      <a href="#">Google Scholar</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+
+</body>
+</html>
